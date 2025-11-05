@@ -7,10 +7,17 @@
     */
 
     //ENTRADA
-
+    const num1 = Number(prompt(`Informe o primeiro número:`));
+    const num2 = Number(prompt(`Informe o segundo número:`));
+    const num3 = Number(prompt(`Informe o terceiro número:`));
+    const num4 = Number(prompt(`Informe o quarto número:`));
+    const num5 = Number(prompt(`Informe o quinto número:`));
     
     //PROCESSAMENTO
+    let listaDeNum = [num1, num2, num3, num4, num5];
+    listaDeNum.sort((a, b) => b - a);
 
+    for( let num = 0; num <= 5; )
     
     //SAÍDA
 

@@ -9,8 +9,13 @@
 
 
     //PROCESSAMENTO
-
+    let impares = [];
+    for( let num = 1; num <= 50; num++){
+        if(num % 2 != 0){
+            impares.push(num);
+        }
+    }
 
     //SAÍDA
-
+    document.write(`A lista de números ímpares de 1 até 50 é: ${impares.join(" - ")}.`);
 </script>
