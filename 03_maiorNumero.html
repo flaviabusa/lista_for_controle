@@ -15,10 +15,12 @@
     
     //PROCESSAMENTO
     let listaDeNum = [num1, num2, num3, num4, num5];
-    listaDeNum.sort((a, b) => b - a);
-
-    for( let num = 0; num <= 5; )
+    
+    for( let i = 0; i < listaDeNum.length; i++){
+        listaDeNum.sort((a, b) => b - a);
+    }
     
     //SAÍDA
+    document.write(`O maior número informado é: ${listaDeNum[0]}`);
 
 </script>
